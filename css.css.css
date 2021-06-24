@@ -1,0 +1,78 @@
+body {
+  background-image: url("background\ image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#d1 {
+  animation-name: milan1;
+  background-color: rgb(87, 87, 87);
+  animation-delay: 6s;
+  animation-duration: 3s;
+}
+
+#d2 {
+  animation-name: milan2;
+  background-color: rgb(87, 87, 87);
+  animation-delay: 9.2s;
+  animation-duration: 3s;
+}
+
+#d3 {
+  animation-name: milan3;
+  background-color: rgb(87, 87, 87);
+  animation-delay: 12.4s;
+  animation-duration: 3s;
+}
+
+.divs {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  border-width: 10px;
+  border-color: rgb(63, 63, 63);
+  border-style: groove;
+}
+@keyframes milan1 {
+  from {
+    background-color: rgb(100, 100, 100);
+  }
+
+  to {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+@keyframes milan2 {
+  from {
+    background-color: rgb(128, 128, 128);
+  }
+
+  to {
+    background-color: rgb(255, 219, 14);
+  }
+}
+
+@keyframes milan3 {
+  from {
+    background-color: rgb(71, 71, 71);
+  }
+
+  to {
+    background-color: rgb(81, 255, 0);
+  }
+}
+
+#alldiv {
+  width: 230px;
+  height: 670px;
+  position: relative;
+  display: block;
+  left: 45%;
+  top: 100000%;
+  background-color: black;
+  border-radius: 25px;
+  margin-left: -60px;
+  margin-top: -16px;
+  padding-top: 25px;
+}
